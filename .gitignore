@@ -1,0 +1,13 @@
+# Virtuelle Umgebung
+env/
+
+# Python-Dateien
+*.pyc
+__pycache__/
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
+# Log-Dateien
+*.log

@@ -1,17 +1,19 @@
-import os 
+#!/bin/python3
+
+import os
 
 def solve(s):
-    # Direkte Verarbeitung von Listen
-    result = ' '.join(word.capitalize() for word in s)
+    # Kapitalisiere jedes Wort korrekt
+    result = ' '.join(word.capitalize() for word in s.split(' '))
     return result
 
-def main():
-    fptr = open('output.txt', 'w')  # Schreibe die Ausgabe in eine Datei namens output.txt
-    s = input().strip().split(' ')  # Konvertiere den String in eine Liste
-    result = solve(s)
-    fptr.write(result + '\n')
-    fptr.close()
-    
-
 if __name__ == '__main__':
-    main()
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    s = input()
+
+    result = solve(s)
+
+    fptr.write(result + '\n')
+
+    fptr.close()
