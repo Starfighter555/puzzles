@@ -1,16 +1,17 @@
 {
-    "configurations": [
-        {
-            "name": "MSYS2-UCRT64",
-            "includePath": [
-                "${workspaceFolder}/**"
-            ],
-            "compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++23",  // 🚀 Wichtig für std::format!
-            "intelliSenseMode": "windows-gcc-x64",
-            "compilerArgs": []
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "c++23"
+,
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": []
+    }
+  ],
+  "version": 4
 }

@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     cout << "int:\n";
-    cout << std::format("Max int value: {}\n", numeric_limits<int>::max());
+    cout << format("Max int value: {}\n", numeric_limits<int>::max());
     cout << format("Min int value: {}\n", numeric_limits<int>::min());
     cout << format("Lowest int value: {}\n", numeric_limits<int>::lowest());
 
