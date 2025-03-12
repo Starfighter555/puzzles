@@ -3,9 +3,8 @@
 using namespace std;
 
 int main(){
-    int a, b, c, d, e, sum;
+    int a, b, c, d, e, sum {0};
     double average;
-    sum = 0;
     cin >> a >> b >> c >> d >> e;
     sum = abs(a) + abs(b) + abs(c) + abs(d) + abs(e);
     average = sum / 5.0;

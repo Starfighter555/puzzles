@@ -1,4 +1,4 @@
- # include <iostream>;
+ # include <iostream>
 
 int main() {
     /* this is a little hello world 📡*/
