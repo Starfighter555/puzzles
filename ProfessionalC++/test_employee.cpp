@@ -2,8 +2,6 @@
 #include <format>
 #include "employee.hpp"  // ✅ Funktioniert mit allen Compilern
 
-
-
 using namespace std;
 
 int main()
