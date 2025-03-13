@@ -146,6 +146,7 @@
     "typeinfo": "cpp",
     "valarray": "cpp",
     "variant": "cpp",
-    "format": "cpp"
+    "format": "cpp",
+    "*.mpp": "cpp"
   }
 }
