@@ -147,6 +147,10 @@
     "valarray": "cpp",
     "variant": "cpp",
     "format": "cpp",
-    "*.mpp": "cpp"
+    "*.mpp": "cpp",
+    "generator": "cpp",
+    "print": "cpp",
+    "stdfloat": "cpp",
+    "text_encoding": "cpp"
   }
 }

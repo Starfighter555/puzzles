@@ -1,0 +1,5 @@
+# ninja log v6
+28	1382	7647739765745473	CMakeFiles/car_program.dir/utils.cpp.obj	35acb2ff67dcf702
+3	1413	7647739765496034	CMakeFiles/car_program.dir/main.cpp.obj	4e106333641fe6fe
+15	1417	7647739765621094	CMakeFiles/car_program.dir/car.cpp.obj	30226d432a84a194
+1417	1614	7647739779645434	car_program.exe	8dec714ec0aee876
