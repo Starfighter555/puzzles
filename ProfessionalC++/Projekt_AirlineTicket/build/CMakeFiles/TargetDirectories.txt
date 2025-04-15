@@ -1,0 +1,3 @@
+C:/Users/patri/Documents/Puzzles/ProfessionalC++/Projekt_AirlineTicket/build/CMakeFiles/airline_app.dir
+C:/Users/patri/Documents/Puzzles/ProfessionalC++/Projekt_AirlineTicket/build/CMakeFiles/edit_cache.dir
+C:/Users/patri/Documents/Puzzles/ProfessionalC++/Projekt_AirlineTicket/build/CMakeFiles/rebuild_cache.dir

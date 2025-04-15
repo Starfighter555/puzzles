@@ -1,0 +1,4 @@
+# ninja log v6
+10	2256	7664325713577428	CMakeFiles/airline_app.dir/main.cpp.obj	267fb3de12b6e5ba
+40	2278	7664325713907622	CMakeFiles/airline_app.dir/src/AirlineTicket.cpp.obj	102fb1bd593ac343
+2279	2596	7664325736315063	airline_app.exe	7b62cd9422177753
