@@ -1,0 +1,24 @@
+# Compiler
+CXX = g++
+# Compiler-Flags
+CXXFLAGS = -std=c++23 -Wall -Wextra -pedantic
+# Zielname
+TARGET = permutation_ohne_wiederholung
+# Quell- und Objektdateien
+SRCS = permutation_ohne_wiederholung.cpp menue.cpp permutations.cpp
+OBJS = $(SRCS:.cpp=.o)
+
+# Standardziel
+all: $(TARGET)
+
+# Regel zur Erstellung des Ziels
+$(TARGET): $(OBJS)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Regel zur Erstellung der Objektdateien
+%.o: %.cpp
+	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Bereinigung
+clean:
+	rm -f $(TARGET) $(OBJS)

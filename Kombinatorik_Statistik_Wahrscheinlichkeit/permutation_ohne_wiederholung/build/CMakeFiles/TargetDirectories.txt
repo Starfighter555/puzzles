@@ -1,0 +1,3 @@
+C:/Users/patri/Documents/Puzzles/Kombinatorik_Statistik_Wahrscheinlichkeit/permutation_ohne_wiederholung/build/CMakeFiles/permutation_ohne_wiederholung.dir
+C:/Users/patri/Documents/Puzzles/Kombinatorik_Statistik_Wahrscheinlichkeit/permutation_ohne_wiederholung/build/CMakeFiles/edit_cache.dir
+C:/Users/patri/Documents/Puzzles/Kombinatorik_Statistik_Wahrscheinlichkeit/permutation_ohne_wiederholung/build/CMakeFiles/rebuild_cache.dir
